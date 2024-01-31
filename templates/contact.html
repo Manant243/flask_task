@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Contact Form</title>
+  </head>
+  <body class="bg-light pt-5">
+
+  <div class="container d-flex h-100">
+    <div class="row align-self-center w-100">
+      <div class="col-6 mx-auto">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Contact Form</h5>
+            <form action="https://formsubmit.co/mananttyagi26@gmail.com" method="post">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5000/">
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" id="inputName" class="form-control mb-3 text-primary bg-light" name="Name"placeholder="John Doe" required autofocus>
+              </div>
+
+              <div class="form-group">
+                <label for="inputEmail">Email address</label>
+                <input type="hidden" name="_autoresponse" value="Hey there, We got your response!!">
+                <input type="email" id="inputEmail" class="form-control mb-3 text-primary bg-light" name="email" placeholder="name@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea id="inputMessage" class="form-control mb-3 text-primary bg-light" rows="5" name="Message" placeholder="Your message..." required></textarea>
+              </div>
+
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional javascript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
